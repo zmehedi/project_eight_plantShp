@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+
+}
+img{
+    max-width: 100%;
+}
+.head{
+    background-image: url(../img/asset\ 16.jpeg);
+    height: 765px;
+    max-width: 100%;
+    background-position:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: color;
+    padding: 20px 0;
+}
+.navbar-brand img{
+    height: 32px;
+}
+ul li a{
+    text-transform: capitalize;
+    color:#ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+ul li a:hover{
+    color:#ffffffc9;
+}
+.write{
+    text-align: center;
+    margin: 160px;
+    color: #ffffff;
+}
+.write h4{
+    
+    
+    
+}
+.write h1{
+    font-size: 85px;
+    font-weight: 600;
+
+}
+.write a{
+    display: inline-block;
+    margin-top: 45px;
+    padding: 13px 35px;
+    background-color:#0aaf89;
+    border: 1px solid #0aaf89;
+    color: #ffffff;
+    font-weight: 500;
+}
+.write a:hover{
+    color: #ffffff;
+    background-color: #0aaf88e3;
+}
+
+.catagories{
+    padding-top: 150px;
+    background-color:#FAFAFA;
+}
+.cata{
+    text-align: center;
+    
+}
+.cata img{
+    display: block;
+    transition: 1s;
+}
+.cata img:hover{
+    transform: scale(1.1);
+}
+.cata a{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    display:inline-block;
+}
+.cata a:hover{
+    border-bottom: 1px solid #0aaf89;
+    
+}
+.feature-section{
+    padding: 100px 0px;
+    background-color: #F7F7F7;
+}
+.feature-section h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.featured p{
+    margin-top: 15px;
+}
+.featured a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    display:inline-block;
+    border: 1px solid #0aaf89;
+    background-color: #0aaf89;
+    color: #ffffff;
+}
+.featured a:hover{
+    background-color: #0aaf88bd;
+    color: #ffffff;
+}
+.post1{
+    margin: 35px 0px;
+}
+.post1 a{
+    display: flex;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.post1 img{
+    transition: transform .5s;
+}
+.post1 img:hover{
+    transform: scale(1.1);
+}
+.post1 p{
+    font-weight:600;
+    color: #000000e1;
+    
+}
+.post1 .icons{
+    color: #0aaf89;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+/*Thrive starts*/
+
+.thrive{
+    margin: 100px 0;
+}
+.images{
+    
+}
+.thrivePost{
+    margin-left: 40px;
+}
+.thrivePost h6{
+    margin-top: 3px;
+    font-size: 18px;
+    color: #0aaf89;
+    font-weight: 600;
+}
+.thrivePost h2{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.thrivePost p{
+    margin: 20px 0px;
+}
+.thrivePost img{
+    margin-top: 20px;
+}
+.thrivePost .icons1{
+    font-size: 18px;
+    color: #0aaf89;
+    margin: 15px 0;
+}
+.thrivePost .icons{
+    font-size: 22px;
+    color: #0aaf89;
+    margin-top: 16px;
+    padding: 3px;
+    background-color: #ffffff;
+}
+.thrivePost a{
+    text-decoration: none;
+    color: #0aaf89;
+}
+.thrivePost i:hover{
+    
+
+    border-radius: 30Px;
+    color: #0aaf89;
+}
+/*Blogs*/
+
+.plantsBlog{
+    margin-bottom: 0px;
+}
+
+.blog-img{
+    background-image: url(../img/asset\ 17.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000098;
+    background-blend-mode: color;
+    height: 400px;
+
+
+}
+.blog-img1{
+    background-image: url(../img/asset\ 18.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000098;
+    background-blend-mode: color;
+    height: 400px;
+    width:100%;
+    
+}
+.blog{
+    padding: 220px 45px;
+}
+.blog h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.blog p{
+    margin-top: 10px;
+    color: #ffffffa6;
+    font-size: 16px;
+    
+}
+.blog .link{
+    margin-top: 40px;
+}
+.blog a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.blog span i{
+    color: #ffffff;
+    font-weight: 600;
+}
+.blog a:hover{
+    color: #0aaf89;
+}
+.blog i:hover{
+    color: #0aaf89;
+}
+/*BUY ONLINE */
+.buy{
+    background-image: url(../img/asset\ 19.jpeg);
+    height: 350px;
+    width: 100%;
+    
+    margin-bottom: 100px;
+}
+.texts{
+    text-align: center;
+    margin-bottom: 150px;
+    padding-top: 150px;
+}
+.texts h2{
+    font-size: 56px;
+    color: #000000;
+    font-weight: 500;
+}
+.texts p{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.texts a{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #0aaf89;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.texts a:hover{
+    background-color: #0aaf88c7;
+    text-decoration: none;
+}
+/*GET IN TOUCH */
+.getInTouch{
+    padding: 100px 0;
+    background-color: #ECEEEC;
+}
+.get{
+    text-align: center;
+    margin: auto;
+}
+.get h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.get p{
+    font-size: 14px;
+    color: #000000b9;
+    margin: 0px 150px;
+}
+.get .icons{
+    font-size: 22px;
+    color: #0aaf89;
+    margin-top: 16px;
+    padding: 5px;
+}
+.get i{
+    color: #0aaf89;
+    border: 1px solid transparent;
+}
+.get i:hover{
+    font-size: 30px;
+    color: rgba(196, 10, 41, 0.87);
+}
+footer{
+    padding: 50px;
+    text-align: right;
+}
+small{
+    font-size: 14px;
+}
+small i{
+    font-size: 16px;
+    margin-left: 5px;
+    color: #0aaf89;
+}
+small i:hover{
+    color: red;
+}

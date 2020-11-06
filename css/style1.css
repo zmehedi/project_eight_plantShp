@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+
+}
+img{
+    max-width: 100%;
+}
+.head{
+    background-image: url(../img/asset\ 16.jpeg);
+    height: 100px;
+    max-width: 100%;
+    background-position-y:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: color;
+    padding: 20px 0;
+}
+.navbar-brand img{
+    height: 32px;
+}
+ul li a{
+    text-transform: capitalize;
+    color:#ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+ul li a:hover{
+    color:#ffffffc9;
+}
+.write{
+    text-align: center;
+    margin: 160px;
+    color: #ffffff;
+}
+
+
+/*Contact Page starts*/
+.contact-forum{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+}
+.contact-forum h1{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.contact-forum p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #000000c9;
+    margin-top: 20px;
+}
+.forum sup{
+    color: rgb(172, 5, 5);
+    font-size: 10px;
+}
+
+.forum{
+    margin: 0px 150px;
+    margin-bottom: 100px;
+    
+}
+.forum label{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.form-control {
+    border: 1px solid #0aaf89;
+}
+.forum .edit{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 50px 200px;
+    border: 1px solid #0aaf88a6;
+    text-align: center;
+    padding: 8x 30px;
+}
+.edit:hover{
+    background-color: #0aaf89;
+    
+}
+.edit a:hover{
+    color: #ffffff;
+}
+.map{
+    margin-bottom: 30px;
+}
+.map h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font: 1em sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+/*Contact page e n d s*/
+
+
+/*ABOUT US STARTS*/
+.about{
+    padding:100px 200px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+.about h2{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+/*ABOUT US E N D*/
+/*Thrive starts*/
+
+.thrive{
+    margin: 100px 0;
+}
+.images{
+    
+}
+.thrivePost{
+    margin-left: 40px;
+}
+.thrivePost h6{
+    margin-top: 3px;
+    font-size: 18px;
+    color: #0aaf89;
+    font-weight: 600;
+}
+.thrivePost h2{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.thrivePost p{
+    margin: 20px 0px;
+}
+.thrivePost img{
+    margin-top: 20px;
+}
+.thrivePost .icons1{
+    font-size: 18px;
+    color: #0aaf89;
+    margin: 15px 0;
+}
+.thrivePost .icons{
+    font-size: 22px;
+    color: #0aaf89;
+    margin-top: 16px;
+    padding: 3px;
+    background-color: #ffffff;
+}
+.thrivePost a{
+    text-decoration: none;
+    color: #0aaf89;
+}
+.thrivePost i:hover{
+    
+
+    border-radius: 30Px;
+    color: #0aaf89;
+}
+/*trhives ends*/
+
+/*testmoinals starts*/
+.testmoinals{
+    padding: 150px 0;
+    background-color:#F7F7F7 ;
+}
+.testmoinals .test-text{
+    text-align: center;
+}
+.test-text h5{
+    color: #0aaf89;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.test-text h2{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.testmoinals .post-box{
+    padding: 40px;
+    background-color: #ffffff;
+    margin: 40px 0;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.219);
+}
+.post-box:hover{
+    border: 1px solid #0aaf89;
+    box-shadow: 0px 12px 16px rgba(128, 128, 128, 0.219);
+}
+.post-box img{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   
+}
+.post-box p{
+    font-size: 18px;
+    color: #000000b7;
+    text-transform: lowercase;
+}
+.post-box h6{
+    display: inline-flex;
+    margin-left: 20px;
+    font-weight: 600;
+}
+/*testmoinals e n d s*/
+
+
+/*signup section starts*/
+.signup-section{
+    margin: 100px 0;
+    
+}
+.signup-section .sign-text{
+    text-align: center;
+
+}
+.sign-text h3{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-shadow: 0px 2px 4px rgba(128, 128, 128, 0.616);
+    margin-bottom: 10px;
+}
+.sign-text p{
+    font-size: 18px;
+    color: #000000b7;
+    text-transform: lowercase;
+}
+.set{
+    margin: 30px 200px;
+    text-align: center;
+}
+.set p{
+    text-align: center;
+    font-size: 13px;
+    margin: 15px 0;
+}
+.sign{
+    
+    border-radius: 5px;
+    color: #ffffff9a;
+    padding: 10px 30px;
+}
+.sign .faa{
+    background-color: #4267B2;
+    border-radius: 5px;
+    color: #ffffff9a;
+    padding: 10px 30px;
+}
+.sign i{
+    color: #ffffff;
+}
+.faa:hover{
+    color: #ffffff;
+}
+.sign .tw{
+    background-color: #1DA1F2;
+    border-radius: 5px;
+    color: #ffffff9a;
+    padding: 10px 30px;
+}
+.tw:hover{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/*signup section e n d s*/
+
+
+
+
+
+
+
+
+
+/*GET IN TOUCH */
+.getInTouch{
+    padding: 100px 0;
+    background-color: #ECEEEC;
+}
+.get{
+    text-align: center;
+    margin: auto;
+}
+.get h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.get p{
+    font-size: 14px;
+    color: #000000b9;
+    margin: 0px 150px;
+}
+.get .icons{
+    font-size: 22px;
+    color: #0aaf89;
+    margin-top: 16px;
+    padding: 5px;
+}
+.get i{
+    color: #0aaf89;
+    border: 1px solid transparent;
+}
+.get i:hover{
+    
+    color: rgba(196, 10, 41, 0.87);
+}
+footer{
+    padding: 50px;
+    text-align: right;
+}
+small{
+    font-size: 14px;
+}
+small i{
+    font-size: 16px;
+    margin-left: 5px;
+    color: #0aaf89;
+    border: 1px solid transparent;
+}
+small i:hover{
+    color: red;
+    border: 1px solid transparent;
+}
